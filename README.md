@@ -16,6 +16,8 @@ applications have to be in the directory
 And they must have **2 icons** in **png** format of **16x16 and 32x32 pixels** called **"16.png"** and **"32.png"**.
 The First QML that is executed. it has to have the same name as the folder. Example: **"MyApp/MyApp.qml"**
 
+![photo Example](https://raw.githubusercontent.com/Dante-Leoncini/nokidesk/main/Imagenes/doc_01.png)
+
 # NokiDesk Español
 Entorno grafico liviano para usar aplicaciones QML+Javascript en Multiples Dispositivos.
 originalmente creado para usarse en telefonos Nokia con Symbian Belle (Como el Nokia N8).
@@ -33,3 +35,5 @@ las aplicaciones tienen que estar en el directorio
 **/qml/aplicaciones**
 Y tienen que tener **2 iconos** en formato **png** de **16x16 y 32x32 pixeles** llamados **"16.png"** y **"32.png"**.
 El Primer QML que se ejecuta. tiene que tener el mismo nombre que la carpeta. Ejemplo: **"MyApp/MyApp.qml"**
+
+![photo Example](https://raw.githubusercontent.com/Dante-Leoncini/nokidesk/main/Imagenes/doc_01.png)
