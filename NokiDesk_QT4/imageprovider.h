@@ -1,0 +1,5 @@
+#ifndef IMAGEPROVIDER_H
+#define IMAGEPROVIDER_H
+
+
+#endif // IMAGEPROVIDER_H
