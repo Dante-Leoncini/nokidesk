@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 67.733331 67.733331"
+   version="1.1"
+   id="svg8"
+   inkscape:export-filename="/home/dante/Documentos/Trabajo/Dibujos y diseños 2D/Logo Dante/PORTADA.png"
+   inkscape:export-xdpi="254"
+   inkscape:export-ydpi="254"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="nokidesk_icon.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="37.765193"
+     inkscape:cy="134.11623"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     borderlayer="true"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-page="true"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-229.26667)">
+    <g
+       aria-label="MINI BUG"
+       transform="matrix(0.26458333,0,0,0.26458333,0,189)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot883" />
+    <g
+       id="g923"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.19551481,0,0,0.19551481,77.080571,228.83323)"
+       aria-label="Por Dante leoncini" />
+    <path
+       style="opacity:1;fill:#1c4894;fill-opacity:1;stroke:none;stroke-width:0.30705026;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 18.411373,231.53846 c -8.9412811,0 -16.1395813,7.1983 -16.1395813,16.13958 v 30.91057 c 0,8.94126 7.1983002,16.1396 16.1395813,16.1396 h 30.910588 c 8.941261,0 16.139581,-7.19834 16.139581,-16.1396 v -30.91057 c 0,-8.94128 -7.19832,-16.13958 -16.139581,-16.13958 z m -6.595589,12.58222 h 8.467354 l 7.865612,13.04079 v -13.04079 h 7.275482 2.185234 c 4.154035,0 7.244788,0.29903 9.272952,0.89772 2.040362,0.58644 3.788332,1.58879 5.242248,3.00604 1.282865,1.23401 2.235412,2.65668 2.858521,4.26943 0.623091,1.61276 0.934344,3.43895 0.934344,5.47919 v 10.6651 c 0,2.06483 -0.311234,3.90964 -0.934344,5.5346 -0.623109,1.61276 -1.575656,3.0355 -2.858521,4.26947 -1.466132,1.41725 -3.226318,2.42527 -5.278895,3.02394 -2.052595,0.58643 -5.131903,0.87982 -9.236305,0.87982 h -2.185234 -7.763685 l -2.627829,-5.33258 h 10.391514 1.799859 2.529483 c 2.883291,0 5.082754,-0.71462 6.597731,-2.1441 1.527192,-1.42946 2.290761,-3.50655 2.290761,-6.23115 v -10.6651 c 0,-2.71228 -0.75696,-4.77722 -2.271988,-6.19449 -1.51496,-1.41725 -3.720871,-2.12445 -6.616504,-2.12445 h -2.529483 -1.799859 v 26.36501 h -7.173554 l -9.158513,-13.7203 v 14.71458 h 4.021757 l 2.627846,5.33258 h -6.649603 -0.491768 -6.784613 z"
+       id="rect1037"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssssssscccccscccsscccscccccscsscscccccccccccc" />
+  </g>
+</svg>
