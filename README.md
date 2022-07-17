@@ -5,6 +5,7 @@ The project has many hours of work. but because my nokia n8 got broken. I never 
 There is now a much more advanced Windows, Linux and Android Compatible version that uses QML 2.0 onwards. allows you to do many more things that you couldn't with QT 4.8 and QML 1.0 (or at least not without a lot of effort)
 
 ![photo Example](https://github.com/Dante-Leoncini/nokidesk/blob/main/Imagenes/31646731_414837758987463_2726943271023542272_n.jpg?raw=true)
+![photo Example](https://github.com/Dante-Leoncini/nokidesk/blob/main/Imagenes/31739972_414824442322128_1295824442458374144_n.jpg?raw=true)
 
 There are 2 **youtube** videos where I show how it works
 https://youtu.be/rpt4CCIYFYc
@@ -25,6 +26,7 @@ El proyecto tiene muchas horas de trabajo. pero debido a que mi Nokia N8 se romp
 Ahora hay una version Compatible con Windows, linux y Android mucho mas avanzada que utiliza QML 2.0 en adelante. permite hacer muchas mas cosas que con QT 4.8 y QML 1.0 no se podia (o al menos no sin mucho esfuerzo)
 
 ![Foto Ejemplo](https://github.com/Dante-Leoncini/nokidesk/blob/main/Imagenes/31646731_414837758987463_2726943271023542272_n.jpg?raw=true)
+![photo Example](https://github.com/Dante-Leoncini/nokidesk/blob/main/Imagenes/31739972_414824442322128_1295824442458374144_n.jpg?raw=true)
 
 Hay 2 videos de **youtube** en donde muestro como Funciona
 https://youtu.be/rpt4CCIYFYc
