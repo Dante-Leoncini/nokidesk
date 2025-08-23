@@ -10,16 +10,20 @@
 #include <QGraphicsObject>
 #include <QObject>
 
-
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    //Block de notas
-    qmlRegisterType<FileIO, 1>("FileIO", 1, 0, "FileIO");
-
-    //Block de notas
-    qmlRegisterType<Canvas, 1>("Canvas", 1, 0, "Canvas");
+    // --- Registro de tipos QML ---
+    #if (QT_VERSION >= QT_VERSION_CHECK(4, 8, 0))
+        // Qt 4.8 y superior (Belle, Desktop…)
+        qmlRegisterType<FileIO, 1>("FileIO", 1, 0, "FileIO");
+        qmlRegisterType<Canvas, 1>("Canvas", 1, 0, "Canvas");
+    #else
+        // Qt 4.7 (Symbian^3, Anna, S60v3…)
+        qmlRegisterType<FileIO>("FileIO", 1, 0, "FileIO");
+        qmlRegisterType<Canvas>("Canvas", 1, 0, "Canvas");
+    #endif
 
     //Buscaminas
     qmlRegisterType<TileData>();
@@ -29,24 +33,30 @@ int main(int argc, char *argv[])
     QDesktopWidget *WidgetEscritorio = app.desktop();
     //QWidget *tvWidget = WidgetEscritorio->screen(1);
 
-
     QmlApplicationViewer viewer;
 
     //Dice el tamaÃ±o de la pantalla
+    //ya no tengo hdmi para testear estas cosas... capaz ya no hace falta con los ultimos cambios
     viewer.rootContext()->setContextProperty("altoSalida", WidgetEscritorio->screenGeometry(1).height());
     viewer.rootContext()->setContextProperty("anchoSalida", WidgetEscritorio->screenGeometry(1).width());
 
+    //la pantalla cero es la pantalla del telefono. la 1 (si existe) es la salida hdmi
+    QRect screenRect = WidgetEscritorio->screenGeometry(0); // pantalla principal
+    viewer.rootContext()->setContextProperty("screenWidth", screenRect.width());
+    viewer.rootContext()->setContextProperty("screenHeight", screenRect.height());
+
     viewer.engine()->rootContext()->setContextObject(game);
-    viewer.setMainQmlFile(QLatin1String("qml/qml/qml/main.qml"));
+    viewer.setMainQmlFile(QLatin1String("qml/main.qml"));
 
     viewer.engine()->addImageProvider("canvas", new ImageProvider);
 
-    viewer.show();
+    //viewer.show();
+    viewer.showFullScreen();
 
     //Si Hay una pantalla externa conectada se abre
     //El trackpad en el celular
     //QmlApplicationViewer celular;
-    //celular.setMainQmlFile(QLatin1String("qml/qml/celular.qml"));
+    //celular.setMainQmlFile(QLatin1String("qml/celular.qml"));
 
 
     //if (1 == WidgetEscritorio->screenCount()){
