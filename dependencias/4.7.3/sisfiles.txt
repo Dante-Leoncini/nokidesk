@@ -1,0 +1,12 @@
+Here is a short description of the different .sis
+files contained in this package.
+
+qt.sis
+    Contains Qt 4.7.3 + Open C, QML, and SQL support
+
+qtwebkit.sis
+    Contains QtWebKit 4.7.3.
+    Depends on Qt and Open C.
+    
+qmlviewer.sis
+    Just the qmlviewer utility

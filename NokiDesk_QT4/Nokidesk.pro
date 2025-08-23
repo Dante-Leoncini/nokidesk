@@ -1,5 +1,5 @@
 # Add more folders to ship with the application, here
-folder_01.source = qml
+folder_01.source = src/qml
 folder_01.target =
 DEPLOYMENTFOLDERS = folder_01
 
@@ -9,7 +9,8 @@ QML_IMPORT_PATH =
 symbian:TARGET.UID3 = 0xE4032BC6
 
 # Allow network access on Symbian
-symbian:TARGET.CAPABILITY += NetworkServices
+#symbian:TARGET.CAPABILITY += NetworkServices
+symbian:TARGET.CAPABILITY += NetworkServices ReadUserData WriteUserData
 
 # Define QMLJSDEBUGGER to allow debugging of QML in debug builds
 # (This might significantly increase build time)
@@ -18,20 +19,21 @@ symbian:TARGET.CAPABILITY += NetworkServices
 # If your application uses the Qt Mobility libraries, uncomment
 # the following lines and add the respective components to the 
 # MOBILITY variable.
+
  CONFIG += mobility
  MOBILITY += systeminfo \
              connectivity
 
 # Cabezeras
-HEADERS += fileio.h \
-           minehunt.h \
-    canvas.h
+HEADERS += src/fileio.h \
+           src/minehunt.h \
+           src/canvas.h
 
 # The .cpp file which was generated for your project. Feel free to hack it.
-SOURCES += main.cpp \
-           fileio.cpp \
-           minehunt.cpp \
-    canvas.cpp
+SOURCES += src/main.cpp \
+           src/fileio.cpp \
+           src/minehunt.cpp \
+           src/canvas.cpp
 
 # Please do not modify the following two lines. Required for deployment.
 include(qmlapplicationviewer/qmlapplicationviewer.pri)
